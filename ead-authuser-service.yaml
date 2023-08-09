@@ -39,17 +39,17 @@ ead:
     exchange:
       userEvent: ead.userevent
 
-  authuser:
-    refreshscope:
-      name: Aline Paz
+authuser:
+  refreshscope:
+    name: Aline Paz
 
-  management:
-    endpoints:
-      web:
-        exposure:
-          include:
-            - refresh
-            - health
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
 
 resilience4j:
   circuitbreaker:
