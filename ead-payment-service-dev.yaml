@@ -40,10 +40,10 @@ ead:
     queue:
       userEventQueue:
         name: ead.userevent.ms.payment
-      paymmentCommandQueue:
+      paymentCommandQueue:
         name: ead.paymentcommand.ms.payment
     key:
-      paymmentCommandKey: ms.payment
+      paymentCommandKey: ms.payment
 
 management:
   endpoints:
