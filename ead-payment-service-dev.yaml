@@ -44,6 +44,8 @@ ead:
         name: ead.paymentcommand.ms.payment
     key:
       paymentCommandKey: ms.payment
+  stripe:
+    secretKey: '{cipher}101188a311218fe1821d64ce7e07bdb2444c25a8fbd9d5a562a4db4b2e7c16399ead809326787271a0028954ce82721c3c7829e43f8682e4a8dd4f8e7ef9d1c9d5ca59fadca19077e3e100283dfa1c2535dba5b638e07f97d7feca045ee303e693d9a75d89353995641a0907968f847828ff46503e642cfaca4aa9157fb3cbbb'
 
 management:
   endpoints:
